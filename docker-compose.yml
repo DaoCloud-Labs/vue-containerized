@@ -1,0 +1,6 @@
+demo-vue-containerized:
+  image: <image>:<tag>
+  privileged: false
+  restart: always
+  ports:
+  - 80:80
